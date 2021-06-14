@@ -85,14 +85,8 @@ namespace TransactionAPI
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Order Api",
-                    Description = "A simple API to create or pay orders",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "TopSoftNAtion",
-                        Email = "topsoftnation@gmail.com",
-                        Url = new Uri("https://www.google.com/")
-                    }
+                    Title = "Captial Pay Transaction Api",
+                    Description = "Transaction API for Captial Pay Suite"
                 });
             });
 
